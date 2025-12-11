@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cakery.</title>
+    <link rel="icon" href="store-solid-full.svg" type="image/svg">
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader-container" id="loader">
+        <div class=" load logo">
+                <a href="#"class="logo-txt load">
+                    Cake<span>ry.</span>
+                </a>
+        </div>
+        
+        <div class="loader-spinner"></div>
+        <span class="loader-text" id="loader-text">0%</span>
+    </div>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#"class="logo-txt">
+                    Cake<span>ry.</span>
+                </a>
+            </div>
+            <ul class="navlist" id="navlist">
+                <li ><a href="#home"class="navlink active">Home</a></li>
+                <li ><a href="#about"class="navlink">About</a></li>
+                <li ><a href="#menu"class="navlink">Menu</a></li>
+                <li ><a href="#resturant"class="navlink">Resturant</a></li>
+                <li ><a href="#order"class="navlink">Order</a></li>
+                <li ><a href="#contact"class="navlink">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"class="icons-link">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <a href="#"class="icons-link">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+
+        </nav>
+
+    </header>
+    <main >
+        <section class="hero-section container mint-glow" id="home">
+            <div class="content">
+                <div class="watch">
+                    <a href="#"class="icons-link">
+                        <i class="fa-solid fa-play"></i>
+
+                    </a>
+                    <h3>Watch Video</h3>
+                </div>
+                <h1>The Perfect Baked Cake Everyday!</h1>
+                <p>Lorem, ipsum dolor sit amet cinsector adipising elit. Eos asperiories rerum dignissimos dolor eumting officia. Provident quidem expediate minima!</p>
+                <div class="btn">
+                    <button>Read More</button>
+                    <button data-type="border-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="image/cake.png">
+
+            </div>
+
+        </section>
+         <div class="scroll-container">
+            <div class="scroll">
+                <h6>50% OFF</h6>
+                <h6>Order Now</h6>
+                <div class="break">
+                </div>
+            </div>
+            <div class="scroll">
+                <h6>50% OFF</h6>
+                <h6>Order Now</h6>
+                <div class="break">
+                </div>
+            </div>
+            <div class="scroll">
+                <h6>50% OFF</h6>
+                <h6>Order Now</h6>
+                <div class="break">
+                </div>
+            </div>
+            
+        </div>
+        <section class="store-section container">
+            <div class="column-container">
+                <h2>Welcome To Our Store</h2>
+             
+                <p data-type="centered-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque mollitia provident commodi sequi minima laboriosam eligendi perferendis.</p>
+            <div class="card-container">
+                <div class="card"data-type='category'>
+                    <img src="image/pastery.png">
+                    <h3>Cake</h3>
+                </div>
+                <div class="card" data-type='category' >
+                    <img src="image/sandwich.png">
+                    <h3>Sandwich</h3>
+                </div>
+                <div class="card" data-type='category' >
+                    <img src="image/cookie.png">
+                    <h3>Cookie</h3>
+                </div>
+                <div class="card"data-type='category'>
+                    <img src="image/bread.png">
+                    <h3>Bread</h3>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <section class="store-section container " id="about">
+            <div class="row-container">
+                <div class="image-container">
+                    <img src="image/cupcake.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        About <br>Cakery Bakery
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, error! Ex harum excepturi autem iste possimus nam, repellat itaque eum fugit aut.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi beatae nihil reprehenderit deserunt totam.
+                    </p>
+                    <button>Read More</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="store-section container"id="menu">
+            <div class="column-container">
+                <h2>Our Featured Food</h2>    
+                <p data-type="centered-txt"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque mollitia provident commodi sequi minima laboriosam eligendi perferendis.
+                </p>
+            <div class="card-container">
+                <div class="card"data-type='item'>
+                     <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+
+                    <div class="image-part">
+                    <img src="image/birthday cake.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br> Birthday Cake
+                    </h4>
+                    </div>
+                </div>
+                <div class="card "data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/muffins.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Muffins</h4>
+                    </div>
+                </div>
+                <div class="card "data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/waffles.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Waffles</h4>
+                    </div>
+                </div>
+                <div class="card" data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/pancake.jpg">
+                    </div>
+                    <div class="detail">
+
+                    <h4>$15.00<br>Pankcake</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card"data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/piece cake.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Piece Cake</h4>
+                    </div>
+                </div>
+                <div class="card"data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/cookies.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Chocolate Cookies</h4>
+                    </div>
+                </div>
+                <div class="card" data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/raspberry cake.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Raspberry Cake</h4>
+                    </div>
+                </div>
+                <div class="card"data-type='item'>
+                    <div class="card-icons">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                    </div>
+                    <div class="image-part">
+                    <img src="image/donut.jpg">
+                    </div>
+                    <div class="detail">
+                    <h4>$15.00<br>Donut</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="store-section container"id="resturant">
+            <div class="row-container">
+                <div class="content">
+                    <h2>
+                    App Is Soon <br> In App Store
+                    </h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsam nulla error. Temporibus velit commodi ut id quo nesciunt asperiores architecto perferendis.
+                    </p>
+                    <div class="app-img">
+                    <img src="image/app store.png">
+                    <img src="image/play store.png">
+                    </div>
+                </div>
+                <div class="image-container">
+                 <img src="image/bakery app.png">
+                </div>
+        </div>
+        </section>
+        <section class="store-section ">
+            <div class="row-container">
+                <div class="image-container">
+                    <img src="image/creamy pancake.png">
+                </div>
+                <div class="content">
+                    <h2>
+                        Best Sell <br> Food In This Week 
+                    </h2>
+                    <div class="ratting">
+                        <h4>
+                            $15.00
+                        </h4>
+                        <img src="image/five star.png">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, incidunt unde exercitationem sit dolor eveniet sed voluptate ad, tempora ex perferendis impedit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur soluta qui laudantium iusto totam.
+                    </p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+       
+        <!--==================== CONTACT ====================-->
+         <section class="contact section container " id="contact">
+            <div class="contact-container container grid">
+                <div class="contact-data">
+
+                </div>
+                <div class="contact-image">
+                    <h2 class="secsection-title">
+                        Contact Now
+                    </h2>
+                    <div class="contact-info grid">
+                        <div>
+                            <h3 class="contact-title">
+                                Write Us
+                            </h3>
+                            <div class="contact-social">
+                                <a href="https://api.whatsapp.com/send?phone=201030033387&text=Hello,%20more%20information" target="_blank" class="contact__social-link icons-link">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="https://m.me/nada.momtaz.2025" target="_blank" class="contact__social-link icons-link">
+                                    <i class="fa-brands fa-facebook-messenger"></i>
+                                </a>
+                                <a href="https://t.me/NadaMomtaz" target="_blank" class="contact__social-link icons-link">
+                                   <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="contact-title">
+                                Delivery
+                            </h3>
+                            <address class="contact-adress">
+                                +00-987-7654-321 <br>
+                                +11-012345
+                            </address>
+                        </div>
+                        <div>
+                            <h3 class="contact-title">
+                                Location                             
+                            </h3>
+                            <address class="contact-adress">
+                                ABC Street ,Kotachi 
+                            </address>
+                            <a href="https://maps.app.goo.gl/59qSQSQFPBNHKKWP7" target="_blank" class="contact-map ">
+                                <a href="https://maps.app.goo.gl/59qSQSQFPBNHKKWP7" target="_blank" class="icons-link">
+                                <i class="fa-solid fa-location-dot"></i>
+                                </a>
+                                <a href="https://maps.app.goo.gl/59qSQSQFPBNHKKWP7" target="_blank" class="contact-map ">
+                                    <span>View On Map</span>
+                                </a>
+                            </a>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-image">
+                    <img src="image/WhatsApp Image 2025-12-11 at 09.37.45_c2e2dd81.jpg" alt="image" class="contact-img">
+                </div>
+
+            </div>
+
+            
+         </section>
+        <section class="store-section container "id="order">
+            <div class="column-container">
+                <h2>Subscribe Our Newlatter</h2>
+                <p data-type="centered-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque mollitia provident commodi sequi minima laboriosam eligendi perferendis.</p>
+                <form class="form-cotainer">
+                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Email Address Here">
+                    <input type="submit" value="Subscribe" class="form-btn">
+                    
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer >
+        <div class="column-container container mint-glow ">
+            <div class="card-container">
+            <div class="column">
+                <div class="logo">
+                    <a href="#"class="logo-txt">
+                    Cake<span>ry.</span>
+                </a>
+                </div>
+                <p data-type="balanced-txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem facilis id beatae tempore asperiores maxime.
+                </p>
+                <div class="icons">
+                    <a href="#"class="icons-link">
+                        <i class="fa-brands fa-facebook-f">
+
+                        </i>
+                    </a>
+                    <a href="#"class="icons-link">
+                        <i class="fa-brands fa-instagram">
+
+                        </i>
+                    </a>
+                    <a href="#"class="icons-link">
+                        <i class="fa-brands fa-linkedin-in">
+
+                        </i>
+                    </a>
+                    <a href="#"class="icons-link">
+                        <i class="fa-brands fa-twitter">
+
+                        </i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="column">
+                <h4>
+                    Resources
+                </h4>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#"class=" footer-links" >
+                            Resource
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links" >
+                            Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links" >
+                            Email Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links">
+                            API Documentation
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>
+                    Menu
+                </h4>
+                 <ul class="footer-list">
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Cup Cake
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links"  >
+                            Cookies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Sandwich
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links"  >
+                            Bread
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Biscuits
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Raspberry Cake
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="column">
+                <h4>
+                    Services
+                </h4>
+                <ul class="footer-list">
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Home Delivery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Office Delivery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class=" footer-links" >
+                            Event
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links"  >
+                            Birthday
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"class=" footer-links"  >
+                            Resturant
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4> Contact </h4>
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://maps.app.goo.gl/59qSQSQFPBNHKKWP7" target="_blank" class="contact-map ">
+                            <a href="#"  class="icons-link">
+
+                            
+                            <i class = "fa-solid fa-location-dot"></i>
+                            </a>
+                            <a href="#"class=" footer-links"  >
+                                ABC Street ,Kotachi 
+                            </a>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#" class="icons-link">
+                        <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <a href="#"class=" footer-links"  >
+                            +89 123 564 890
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icons-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="#"class=" footer-links"  >
+                            info@example.com
+                        </a>
+                    </li>
+ 
+                </ul>
+            </div>
+
+            </div>
+            <div class="line">
+
+            </div>
+            <h4>
+                &copy;Copyright Cakery All Rights Reserved
+            </h4>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
